@@ -1,0 +1,15 @@
+adding code to existing 
+
+import java.util.Scanner;
+
+public class LoginLogout {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter username: ");
+        String username = scanner.nextLine();
+        System.out.println("Welcome, " + username + "!");
+        System.out.println("Logging out...");
+        System.out.println("User logged out successfully.");
+        scanner.close();
+    }
+}
