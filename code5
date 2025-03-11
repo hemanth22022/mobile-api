@@ -1,0 +1,4 @@
+username = input("Enter your username: ")  
+print(f"Welcome, {username}!")  
+print("Logging out...")  
+print("User logged out successfully.") 
